@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# CodeRabbit counts every reviewed push against a per-developer hourly allowance, and every PR
+# here is opened under the owner's account. To spend one review per PR:
+# - PRs are opened as drafts, which CodeRabbit skips, and marked ready once CI is green;
+# - only the first ready push is reviewed automatically. Later pushes are reviewed on request,
+#   with a PR comment "@coderabbitai review". Independent review agents cover the fix commits.
+reviews:
+  auto_review:
+    enabled: true
+    drafts: false
+    auto_incremental_review: false
